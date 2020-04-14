@@ -1,0 +1,170 @@
+.sickroom {
+  margin: auto;
+  width: 1000px;
+}
+
+.sickroom .sickroom-border {
+  border: 1px solid #ddd;
+}
+
+.sickroom .sickroom-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.sickroom .sickroom-tab-border {
+  border: none;
+  border-right: 1px solid #ddd;
+}
+
+.sickroom .sickroom-tab-border input[type="text"],
+.form-control {
+  background-color: none;
+}
+
+.sickroom .form-control[disabled] {
+  color: #0d0d0d!important;
+}
+
+.sickroom .sickroom-tab-border:last-child {
+  border-right: none;
+}
+
+.sickroom .sickroom-tab-border:focus,
+.sickroom .sickroom-tab-border:focus {
+  border-bottom: 0;
+}
+
+.sickroom .sickroom-row:last-child {
+  border-bottom: none !important;
+}
+
+.sickroom .sickroom-heading {
+  width: 129px;
+  background: #f3f3f3;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.sickroom .sickroom-bed {
+  width: 429px;
+  padding: 20px 20px 20px 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sickroom .sickroom-caregiver {
+  width: 230px;
+  padding: 20px 20px 20px 20px;
+  border-right: none;
+}
+
+.sickroom .sickroom-rest {
+  width: 440px;
+  padding: 20px 20px 20px 20px;
+  border-right: none;
+}
+.sickroom .sickroom-patient {
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sickroom .sickroom-input-h {
+  height: 30px;
+  padding: 0 10px;
+}
+
+.sickroom .form-control.sickroom-input-w-l {
+  width: 80px;
+  min-width: 130px;
+  display: inline-block;
+}
+
+.sickroom .form-control.sickroom-input-w-x {
+  width: 190px;
+  min-width: 80px;
+  display: inline-block;
+}
+
+.sickroom .form-control.sickroom-tab-w {
+  width: 173.5px;
+  min-width: 80px;
+  display: inline-block;
+  text-align: center;
+  border: none !important;
+  border-radius: 0 !important;
+  border-left: 1px solid #dee2e6 !important;
+}
+
+.sickroom .form-control.sickroom-tab-w[name="generalRoom"] {
+  border-left: 0 !important;
+}
+.sickroom .form-control.sickroom-tab-w.sickroom-tab-w-m {
+  width: 175px;
+}
+
+.sickroom .border-b {
+  border-bottom: 1px solid #ddd;
+}
+
+.sickroom .message-icon {
+  padding-right: 10px;
+  width: 35px;
+}
+
+.sickroom .display-middle {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.sickroom .display-middle.display-middle-m {
+  right: 0%;
+  top: -16px;
+}
+
+.sickroom .display-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  padding-left: 22px;
+  font-size: 11px;
+}
+
+.sickroom .display-bottom-left.display-bottom-left-m {
+  bottom: 50px;
+}
+
+.sickroom .isSelected.sickroom-tab-w {
+  background-color: #007bff !important;
+  color: #fff;
+}
+
+.sickroom .fa-chevron-left,
+.sickroom .fa-chevron-right {
+  font-size: 30px;
+  color: #4288ce;
+}
+
+.sickroom .carousel-control-prev {
+  left: -80px;
+}
+
+.sickroom .carousel-control-next {
+  right: -80px;
+}
+.style-middle .font-weight-bold {
+  position: absolute;
+  bottom: -10px;
+}
+.style-input-middle {
+  position: absolute;
+  bottom: -15px;
+  width: 90%;
+}
+.style-input-middle .display-bottom-left {
+  bottom: -20px;
+  padding-left: 0;
+}

@@ -1,0 +1,153 @@
+.notification .custom-radio {
+  width: 100%;
+}
+.notification .custom-radio.custom-radio-m {
+  width: auto;
+}
+
+.page-list .list-tab {
+  padding-left: 0;
+  list-style: none;
+}
+
+.page-list .btn {
+  font-size: 14px;
+}
+
+.page-list .table th {
+  background: #f3f3f3;
+}
+
+.page-list .table th,
+.page-list .table td {
+  vertical-align: middle;
+}
+
+.wrapp-table {
+  margin-bottom: 16px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.wrapp-table .table {
+  margin-bottom: 0;
+}
+
+.tab-status span:not(:nth-child(2)) {
+  cursor: pointer;
+}
+
+.tab-status span:nth-child(2) {
+  margin: 0 10px;
+}
+
+.page-list .list-tab li {
+  color: #696969;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.page-list .list-tab li.active {
+  font-weight: bold;
+  color: #000;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.page-list .list-tab li.active {
+		font-weight: 500;
+	  }
+}
+
+.two-select select:last-of-type {
+  margin-left: 10px;
+}
+
+.notification .customer-select {
+  min-width: 80px;
+  width: 80px;
+  display: inline-block;
+}
+
+.notification .customer-select + .customer-select {
+  min-width: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.notification .input-other {
+  position: absolute;
+  left: 65px;
+  top: -7px;
+  width: 200px;
+  opacity: 1;
+  visibility: initial;
+}
+
+.notification .custom-label {
+  margin-right: 30px;
+}
+
+.notification .custom-label input {
+  height: 34px;
+  display: inline-block;
+  font-size: 14px;
+  width: 100px;
+  margin: 0 10px;
+}
+
+.notification .custom-datetime .rdt {
+  width: 232px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.notification .custom-checkbox .custom-input {
+  position: relative;
+  position: relative;
+  opacity: 1;
+  visibility: initial;
+  display: inline-block;
+  width: 50px;
+  margin: 0 10px;
+}
+
+.notification .custom-checkbox .customer-select {
+  display: inline-block;
+  margin: 0 10px;
+  min-width: 65px;
+  width: 65px;
+}
+
+.notification .custom-checkbox .checkbox-wrapper {
+  height: 34px;
+  line-height: 34px;
+}
+
+.notification .custom-checkbox .checkmark {
+  top: 7px;
+}
+
+.notification .form-control.w100 {
+  width: 65px;
+  min-width: 65px;
+  display: inline-block;
+}
+
+.notification .form-control {
+  padding-right: 10px;
+}
+
+.custom-datetime .rdt + .rdt {
+  margin-left: 30px;
+  position: relative;
+}
+
+.custom-datetime .rdt + .rdt::after {
+  content: "~";
+  position: absolute;
+  left: -25px;
+  top: 7px;
+}
+.notification .custom-label input{
+  width: 128px;
+}

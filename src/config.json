@@ -1,0 +1,24 @@
+{
+	"apiUrl": "http://localhost:3900/api",
+	"testUrl": "https://jsonplaceholder.typicode.com/users",
+	"TYPE_USER": {
+		"MASTER": 1,
+		"CAREGIVER": 2
+	},
+	"STATUS": {
+		"REQUEST": 2,
+		"CONFIRM": 1,
+		"AUTHORIZATION": 3
+	},
+	"PAGESIZE": 10,
+	"PAGESIZEMODAL": 5,
+	"TYPE_ERROR": {
+		"ERROR": 1,
+		"VALID": 2
+	},
+	"ROLE" : {
+		"ALL" : 4,
+		"VIEW": 5,
+		"EDIT_DELETE": 6
+	}
+}

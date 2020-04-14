@@ -1,0 +1,180 @@
+.stage-register {
+  width: 680px;
+  margin: 50px auto 50px;
+  height: 100%;
+}
+
+.stage-register .table tbody tr th {
+  background-color: #f1f1f1;
+  width: 150px;
+  vertical-align: inherit;
+}
+
+.stage-register .table tbody tr td {
+  padding: 20px 15px 20px 15px;
+}
+
+.stage-register .quotation-marks {
+  line-height: 3;
+  text-align: center;
+}
+
+.stage-register .phone-prefix-sel {
+  min-width: 85px;
+  width: 83px;
+}
+
+.stage-register .mail-suffix-sel {
+  min-width: 134px;
+  height: 40px;
+  top: 6px;
+}
+
+.stage-register .mail-suffix-sel .css-1szy77t-control {
+  top: 0;
+}
+
+.custom-p .css-bg1rzq-control {
+  top: 0;
+  background-color: hsl(0, 0%, 95%) !important;
+}
+
+.custom-p .css-1szy77t-control {
+  background-color: hsl(0, 0%, 95%) !important;
+}
+
+.stage-register .display-middle {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.stage-register .display-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  padding-left: 22px;
+  font-size: 12px;
+}
+
+.stage-register .margin-right-x {
+  margin-right: 100px;
+}
+
+.stage-register .message-icon {
+  padding-right: 10px;
+  width: 34px;
+}
+
+.stage-register .btn-width-xl {
+  width: 90px;
+}
+
+.stage-register .btn-upload {
+  cursor: pointer;
+  width: 80px;
+}
+
+.stage-register .dash-letter {
+  line-height: 34px;
+  text-align: center;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.stage-register .btn-width-l {
+  width: 95px;
+}
+
+.wrapp-choose {
+  width: 130px;
+}
+
+#formContent {
+  padding-bottom: 30px;
+}
+
+.img-user {
+  margin-bottom: 15px;
+}
+
+.form-groups .radio-wrapper .text {
+  margin-top: 0;
+}
+
+.stage-register .form-groups {
+  padding: 0;
+}
+
+.page-notification {
+  margin: 70px auto;
+  margin-bottom: 20px;
+  width: 700px;
+  padding: 30px 20px 20px;
+  border: 1px solid #c5c5c5;
+}
+
+.page-notification h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.stage-register input.form-control,
+.stage-register select.form-control {
+  height: 34px;
+  font-size: 14px;
+}
+
+.stage-register .combo-input {
+  height: 30px !important;
+  top: -4px;
+}
+
+.stage-register .btn {
+  height: 34px;
+  font-size: 14px;
+}
+
+.stage-register .title-register {
+  font-size: 16px;
+}
+
+.stage-register .input-custom .fa-eye {
+  top: 7px;
+  margin-right: 80px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
+
+.stage-register input[type="text"]::-ms-clear {
+  display: none;
+}
+.stage-register .css-1szy77t-contro {
+  top: 0 !important;
+}
+
+.custom-radio.first {
+  margin-left: 15px;
+}
+
+.custom-radio.second {
+  margin-right: -15px;
+}
+.hospital-form-input{
+  min-width: 83px;
+}
+.insert-hospital-form .css-bg1rzq-control{
+  background-color: hsl(0, 0%, 95%) !important;
+}
+.insert-hospital-form .handling-problem .combo-input {
+    background-color: hsl(0, 0%, 95%) !important;
+}
+.hospital-code{
+  min-width: 65px;
+}
+.form-control:disabled {
+  color: #0d0d0d !important;
+}

@@ -1,0 +1,12 @@
+.history-room .header-search label {
+  height: auto;
+  line-height: initial;
+}
+
+.history-room .header-search {
+  margin-bottom: 30px;
+}
+
+.w140{
+  width: 140px;
+}

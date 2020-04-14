@@ -1,0 +1,64 @@
+.page-department .header-search input.form-control {
+  width: 250px;
+  margin: 0 10px !important;
+}
+
+.page-department .btn {
+  height: 34px;
+  font-size: 14px;
+}
+
+.page-department .btn + .btn {
+  margin-left: 10px;
+}
+
+.page-department .header-search {
+  margin-bottom: 30px;
+}
+
+#EditDepartment input {
+  height: 34px;
+}
+
+#EditDepartment .btn {
+  margin: 20px 5px 10px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.select-custom {
+  font-size: 16px;
+  border-radius: 3px;
+  color: #212529;
+  padding: 3px 5px;
+}
+.approved {
+  margin-right: 10px;
+}
+.table-setpermission td.sub {
+  padding-left: 30px;
+  position: relative;
+}
+.table-setpermission td.sub::before {
+  content: "-";
+  font-size: 17px;
+  margin-right: 5px;
+  margin-top: -6px;
+}
+.button-footer button {
+  margin-right: 10px;
+  width: 75px;
+  font-size: 14px;
+}
+
+.page-request .css-1pcexqc-container {
+  margin: 0 auto;
+}
+
+.table-setpermission .checkmark {
+  top: 2px;
+}
+
+.groupselect :disabled.form-control {
+  color: #0d0d0d !important;
+}

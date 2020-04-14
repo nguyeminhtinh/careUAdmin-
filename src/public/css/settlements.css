@@ -1,0 +1,60 @@
+.page-bill .header-search .form-control {
+  height: 34px;
+  margin: 0 5px;
+  width: 120px;
+}
+
+.page-bill .header-search select:first-of-type {
+  margin-left: 10px;
+}
+
+.page-bill .header-search select:last-of-type {
+  margin-right: 10px;
+}
+
+.page-bill .rdt {
+  margin: 0 5px;
+}
+
+.page-bill .header-search h5:first-of-type {
+  margin-bottom: 10px;
+}
+
+.page-bill .header-search .btn {
+  height: 33px;
+  font-size: 14px;
+  padding: 4px 20px;
+}
+
+.table-tax {
+  margin-top: 1rem;
+}
+
+.table-tax .title {
+  margin: 0;
+  padding: 15px;
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  font-size: 20px;
+  background: #fff;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.table-tax .title {
+		font-weight: 500;
+	  }
+}
+
+.page-bill tr td {
+  vertical-align: middle;
+}
+
+.page-bill tr td.bg {
+  background: #efefef;
+}
+
+.header-search.page-report .css-1pcexqc-container {
+  top: -11px;
+  margin-right: 25px;
+}

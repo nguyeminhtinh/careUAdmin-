@@ -1,0 +1,94 @@
+.handling-problem table tbody tr th {
+  vertical-align: middle;
+  width: 150px;
+  background: #f3f3f3;
+  padding-left: 25px;
+}
+
+.handling-problem table tbody tr td {
+  padding: 20px;
+}
+
+.handling-problem input {
+  height: 35px;
+  font-size: 14px;
+}
+
+.handling-problem .label-custom {
+  padding: 5px 4px 3px 4px;
+}
+
+.handling-problem select {
+  background-color: #f6f6f6;
+}
+
+.handling-problem .form-control {
+  padding: 0 7px;
+  border: 1px solid #dee2e6 !important;
+}
+
+.w-35 .css-1pcexqc-container {
+  width: 80px;
+  min-width: 80px;
+}
+
+.handling-problem .combo-input {
+  width: 50px !important;
+  position: absolute;
+  height: 30px;
+  top: 23px;
+  border: 0 !important;
+  left: 21px;
+  background: #f6f6f6 !important;
+}
+
+.handling-problem .dash-letter {
+  line-height: 38px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.handling-problem .btn {
+  height: 34px;
+  font-size: 14px;
+  width: 100px;
+  border: none;
+}
+
+.handling-problem .message-icon {
+  padding-right: 10px;
+  width: 40px;
+}
+
+.handling-problem .display-middle {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.handling-problem .display-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  padding-left: 22px;
+  font-size: 12px;
+}
+.w-35 {
+  width: 20%;
+}
+
+button.btn.btn-primary {
+  background-color: #4288ce;
+  border-color: #4288ce;
+}
+
+.handling-problem :disabled.form-control {
+  color: #0d0d0d !important;
+}
+
+.table-hadling .table tbody td {
+  text-align: center;
+}

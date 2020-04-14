@@ -1,0 +1,50 @@
+html {
+	background-color: #ffffff;
+}
+
+.stage-returnId {
+    text-align: left !important;
+    padding: 0 20px !important;
+}
+
+.stage-returnId .fadeIn.first {
+    padding: 25px 50px 25px 50px;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.stage-returnId .fadeIn.first {
+		font-weight: 500;
+	}
+}
+
+.stage-returnId .input-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.text-mail {
+    text-decoration: underline;
+}
+
+.margin-right-l {
+    margin-right: 30px;
+}
+
+.margin-top-l {
+    margin-top: 40px !important;
+}
+
+.btn-width-x {
+    width: 120px;
+}
+
+.fontSize-13{
+    font-size: 13px !important;
+}
+.stage-returnId .input-content{
+    padding: 50px 15px;
+}

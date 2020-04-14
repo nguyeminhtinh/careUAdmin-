@@ -1,0 +1,304 @@
+.btn.btn-status {
+  margin-left: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.custom-table .table td {
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.custom-table .modal-dialog.modal-midle {
+  margin-top: 50px;
+}
+
+.btn-table {
+  min-width: 60px;
+}
+
+#CurrentNumber select {
+  height: 34px;
+  min-width: 80px;
+  width: 80px;
+  margin: 0 10px;
+}
+
+#CurrentNumber input {
+  margin: 0;
+}
+
+#CurrentNumber input,
+#CurrentNumber .btn {
+  font-size: 14px;
+  height: 34px;
+}
+
+#CurrentNumber .rdt input {
+  height: 34px;
+}
+
+#CurrentNumber .action .btn {
+  margin: 0 5px;
+  padding: 4px 30px;
+}
+
+.content-change {
+  padding: 10px 0;
+}
+
+.content-change .radio-wrapper {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.content-change .radio-wrapper input[type="text"] {
+  position: relative;
+  opacity: 1;
+  visibility: initial;
+  margin: 0;
+  height: 34px;
+  font-size: 14px;
+  width: 250px;
+}
+
+.content-change .action .btn {
+  margin: 0 5px;
+  padding: 4px 25px;
+}
+
+.content-change p {
+  margin-bottom: 5px;
+}
+
+.content-change-price {
+  padding: 10px 0;
+}
+
+.content-change-price .radio-wrapper {
+  width: 50%;
+}
+
+.content-change-price p {
+  margin-bottom: 5px;
+}
+
+.content-change-price .action .btn {
+  margin: 0 5px;
+  padding: 4px 25px;
+}
+
+.content-change-price input {
+  height: 34px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.page-register-room .btn {
+  height: 34px;
+  padding: 6px 20px;
+  font-size: 14px;
+}
+
+.page-register-room .form-control {
+  height: 34px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.page-register-room .group-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.page-register-room .group-btn .btn {
+  padding: 6px 10px;
+  min-width: 80px;
+}
+
+.page-register-room .css-1pcexqc-container {
+  width: auto;
+  margin: 0;
+}
+
+.page-register-room .css-ssi0ig-container {
+  width: 100%;
+  min-width: 135px;
+}
+
+.page-register-room .css-1pcexqc-container .css-bg1rzq-control,
+.page-register-room .css-1pcexqc-container .css-1szy77t-control {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.group-btn .btn + .btn {
+  margin-left: 5px;
+}
+
+.page-department .nav-tabs .nav-link.active {
+  color: #000;
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .page-department .nav-tabs .nav-link.active {
+    font-weight: 500;
+  }
+}
+
+.page-department .nav-tabs .nav-link {
+  color: #2994ff;
+  padding: 10px 25px;
+}
+
+.css-ssi0ig-container {
+  width: 135px;
+}
+
+.page-department .tab-content {
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+}
+
+.wrapper-action {
+  width: 200px;
+}
+
+#ChangePrice .modal-content {
+  padding: 0;
+}
+
+#ChangePrice .nav-tabs .nav-item {
+  width: calc(100% / 3);
+  border-radius: 0;
+  text-align: center;
+}
+
+#ChangePrice .nav-tabs .nav-link {
+  padding: 0.7rem 1rem;
+}
+
+#ChangePrice .nav-tabs .nav-link {
+  color: #3998ea;
+  border-radius: 0;
+  border-left: 1px solid #dee2e6;
+}
+
+#ChangePrice .nav-tabs .nav-link.active {
+  color: #000;
+  font-weight: bold;
+  border-right: none;
+}
+
+#ChangePrice > .tab-content .tab-1 {
+  max-height: 310px;
+}
+
+.w-246 .rdtPicker .rdtDays,
+.w-246 .rdtPicker .rdtTime,
+.w-246 .rdtPicker .rdtMonths,
+.w-246 .rdtPicker .rdtYears {
+  top: 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .rdtPicker {
+    background: none;
+    border: 0;
+    box-shadow: none;
+  }
+  
+
+  .rdtPicker .rdtDays {
+    border: 1px solid #f9f9f9;
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    top: -310px;
+    position: relative;
+  }
+  .rdtPicker .rdtTime {
+    border: 1px solid #f9f9f9;
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    top: -185px;
+    position: relative;
+  }
+  .rdtPicker .rdtMonths {
+    border: 1px solid #f9f9f9;
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    top: -225px;
+    position: relative;
+  }
+  .rdtPicker .rdtYears {
+    border: 1px solid #f9f9f9;
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    top: -225px;
+    position: relative;
+  }
+}
+
+#ChangePrice .nav-tabs .nav-item:nth-child(1) a {
+  border-top-left-radius: 4px;
+}
+
+#ChangePrice .nav-tabs .nav-item:nth-child(3) a {
+  border-top-right-radius: 4px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #ChangePrice .nav-tabs .nav-link.active {
+    font-weight: 500;
+  }
+}
+
+#ChangePrice .tab-content > .tab-pane {
+  margin: 30px 20px;
+}
+
+#ChangePrice .action .btn {
+  margin: 0 5px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+#ChangePrice input.form-control {
+  height: 34px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.modalchange .custom-radio .text {
+  width: auto;
+}
+
+.radio-wrapper.last {
+  display: inline-flex;
+  align-items: center;
+}
+
+.modalchange .radio-wrapper.last .text {
+  width: 70px;
+}
+
+.modalchange .content-change .radio-wrapper {
+  width: auto;
+}
+
+.radio-wrapper.last .checkradio {
+  top: 5px;
+}
+
+.table-room-register .css-ue83k8-singleValue,
+.table-room-register .form-control:disabled,
+.table-room-register .form-control[readonly] {
+  color: #0d0d0d;
+}
+.css-1hwfws3 .css-dvua67-singleValue{
+  padding-right: 0px;
+}#FormResult tbody tr.active *{
+  color: #FFF !important;
+}

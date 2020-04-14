@@ -1,0 +1,203 @@
+.checkbox-wrapper {
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  padding-left: 25px;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #c4c1c0;
+}
+
+.checkbox-wrapper input:checked ~ .checkmark {
+  background-color: #1a1b3a;
+  border-color: #1a1b3a;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox-wrapper input:checked ~ .text {
+  font-weight: 500;
+  color: #6b6461;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-wrapper .checkmark:after {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/icon-check.png");
+  background-position: center center;
+  background-size: 14px;
+  background-repeat: no-repeat;
+}
+
+.form-control.w100 {
+  width: 80px;
+  min-width: 80px;
+  display: inline-block;
+}
+
+.form-register .dash-letter {
+  margin: 0 10px;
+}
+
+.form-register textarea {
+  max-height: 120px;
+}
+
+.form-register tr th:nth-child(1) {
+  font-weight: 500;
+}
+
+.form-register .radio-wrapper {
+  margin-right: 20px;
+}
+
+.form-register th {
+  background: #f3f3f3;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+.form-register td {
+  vertical-align: middle;
+}
+
+.form-register input.form-control,
+.form-register select.form-control {
+  height: 35px;
+  font-size: 14px;
+  margin: 0;
+  border: 1px solid #e9ecef;
+}
+
+.form-register .form-control {
+  padding: 4px 10px;
+}
+
+.form-register .btn {
+  height: 34px;
+  font-size: 14px;
+  width: 100px;
+  border: none;
+}
+
+.form-register .display-middle {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.form-register .display-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  padding-left: 12px;
+  font-size: 12px;
+}
+
+.form-register .message-icon {
+  padding-right: 10px;
+  width: 34px;
+}
+
+.form-register .table tbody tr td {
+  padding: 20px 40px 20px 10px;
+  border-left: 0;
+  border-right: 0;
+}
+
+.form-register .rdtTime table tbody tr td {
+  padding: 0 10px !important;
+}
+
+.form-register .table tbody tr td.rdtMonth,
+.form-register .table tbody tr td.rdtYear {
+  padding: 0 10px;
+}
+
+.btn-choose {
+  margin-left: 10px;
+}
+
+.m-0-auto {
+  margin: 0 10px;
+}
+
+.form-register .action .btn + .btn {
+  margin-left: 10px;
+}
+
+.form-register .custom-radio {
+  width: 160px;
+}
+
+.form-register .text-span {
+  width: calc(100% - 160px);
+}
+
+.form-register .display-left {
+  position: absolute;
+  color: rgba(189, 186, 186, 0.6) !important;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%);
+}
+
+.form-register .custom-slectoption {
+  border-bottom: none !important;
+  height: 35px;
+}
+
+.content-modal {
+  padding: 10px;
+}
+
+.content-modal .checkbox-wrapper {
+  /* width: 50%; */
+  margin: 0 0 10px;
+  padding-left: 30px;
+}
+
+.none-poiter {
+  pointer-events: none;
+}

@@ -1,0 +1,369 @@
+/* BASIC */
+a {
+  color: #92badd;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 40px 8px 10px 8px;
+  color: #cccccc;
+}
+
+a.btn-default {
+  color: #fff !important;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+/* STRUCTURE */
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 510px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.page-login #formContent {
+  padding-bottom: 0;
+}
+
+#formContent h1 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #formContent h1 {
+    font-weight: 500;
+  }
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+#formFooter p {
+  margin-bottom: 0;
+}
+
+/* TABS */
+h2.inactive {
+  color: #cccccc;
+}
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 2px solid #5fbae9;
+}
+
+/* FORM TYPOGRAPHY*/
+
+.btn-default,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #1a1b3a;
+  border-color: #1a1b3a;
+  color: #fff;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .btn-default,
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"] {
+    font-weight: 500;
+  }
+}
+
+.btn-default,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #1a1b3a;
+  border-color: #1a1b3a;
+  color: #fff;
+}
+.btn.btn-default:hover {
+  color: #fff;
+}
+
+input[type="text"],
+.form-control {
+  text-align: left;
+  background-color: hsl(0, 0%, 95%) !important;
+  border: none;
+  color: #0d0d0d;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  height: 45px;
+  margin: 5px auto;
+  width: 100%;
+  border: 1px solid #dee2e6 !important;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+input[type="text"],
+.form-control:focus {
+  border-bottom: 0;
+}
+
+input[type="password"],
+.form-control {
+  text-align: left;
+  color: #0d0d0d;
+}
+
+@-moz-document url-prefix() {
+  input[type="password"],
+  .form-control {
+    padding-right: 25px;
+  }
+}
+
+input[type="text"]:focus,
+.form-control:focus {
+  background-color: #f6f6f6;
+}
+
+input[type="text"]:placeholder,
+.form-control::placeholder {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+/* OTHERS */
+
+*:focus {
+  outline: none;
+}
+
+#icon {
+  width: 60%;
+}
+
+.form-groups {
+  padding: 0 30px;
+  z-index: 1;
+}
+
+.text-result {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.text {
+  width: 100%;
+}
+
+.input-error {
+  background-color: #fff;
+  border-bottom: 2px solid #f00 !important;
+}
+
+.form-email {
+  align-items: center;
+}
+
+.fadeIn.first {
+  padding: 25px;
+  border-bottom: 1px solid #dce8f1;
+}
+
+.unit-email {
+  margin: 3px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.login-nav .nav-link {
+  font-size: 16px;
+  color: #0d0d0d;
+  position: relative;
+  background: transparent;
+  border: none;
+}
+
+.login-nav .nav-link::after {
+  position: absolute;
+  right: 0;
+  content: "";
+  border-right: 1px solid #dce8f1;
+  width: 1px;
+  height: 20px;
+  bottom: 14px;
+}
+
+.login-nav .link:last-of-type .nav-link::after {
+  content: none;
+}
+
+.description {
+  font-size: 18px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.page-login .input-cheched .checkmark {
+  width: 22px;
+  height: 22px;
+  border-radius: 2px;
+}
+
+.page-login .input-cheched {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.action-footer {
+  padding: 16px 20px 0;
+}
+
+.btn-cancel {
+  background: #dddd;
+  min-width: 100px;
+}
+
+.page-login .form-error {
+  margin: 10px 30px 0;
+}
+
+.page-login .alert {
+  margin-bottom: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #0d0d0d;
+  -webkit-box-shadow: 0 0 0px 1000px #f6f6f6 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type="text"]:focus,
+.form-control:focus {
+  border-bottom: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.wrapper-login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-login .combo-select {
+  min-width: 120px !important;
+  padding-right: 10px !important;
+}
+
+.input-email-custom {
+  margin-top: 5px;
+}
+
+.input-email-custom .combo-input {
+  width: 110px !important;
+  border: none !important;
+  position: absolute;
+  height: 37px !important;
+  z-index: 1000;
+  top: 10px;
+  left: 2px;
+  padding: 0px 0px 0 5px;
+}
+
+.input-email-custom .input-email {
+  margin: 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .wrapper-login {
+    height: 99vh;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .input-email-custom .combo-input {
+    padding: 0 5px;
+  }
+  .input-email-custom {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.phone-prefix-sel:focus {
+  border-color: #bbbfc2;
+  border-bottom: 1px solid #bbbfc2;
+}
+
+.modal-title {
+  font-size: 20px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.form-control:focus {
+  border-color: #bbbfc2;
+}

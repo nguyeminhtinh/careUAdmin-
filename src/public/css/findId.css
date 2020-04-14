@@ -1,0 +1,50 @@
+html {
+	background-color: #ffffff;
+}
+
+span {
+    padding: 0;
+	margin: 0;
+	color: #0d0d0d;
+}
+
+.stage-findId {
+    text-align: left !important;
+}
+
+.stage-findId .fadeIn.first {
+    padding: 25px 50px 25px 50px;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.stage-findId .fadeIn.first {
+		font-weight: 500;
+	}
+}
+
+.stage-findId .input-content {
+    padding: 20px 50px 10px 50px;
+}
+
+.dash {
+    line-height: 3.7;
+    text-align: center;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.phone-number-sel {
+	min-width: 120px;
+	top: -5px;
+}
+
+.btn-width-l {
+    width: 95px;
+}
+.page-findId .form-groups select,.page-findId .form-groups input{
+	min-width: 130px;
+}
